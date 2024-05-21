@@ -1,0 +1,47 @@
+.top-options {
+  display: flex;
+  margin-bottom: 48px;
+}
+
+.top-options > * {
+  margin-right: 48px;
+}
+
+.budget-editor-breakdown-card {
+  background-color: #f5f6fa;
+  border-color: #d4dae7;
+}
+
+.budget-editor-breakdown-card h2 {
+  margin-top: 0;
+}
+
+.breakdown-items {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.breakdown-items > * {
+  margin-right: 24px;
+}
+
+.budget-breakdown-item-input {
+  width: 140px;
+  margin-bottom: 20px;
+}
+
+.baseline-input-equal input {
+  color: #2a3558 !important;
+}
+
+.baseline-input-manual input {
+  color: #99a4c2 !important;
+}
+
+.budget-breakdown-item-equal input {
+  color: #99a4c2 !important;
+}
+
+.budget-breakdown-item-manual input {
+  color: #2a3558 !important;
+}

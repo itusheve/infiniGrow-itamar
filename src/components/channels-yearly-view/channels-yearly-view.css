@@ -1,0 +1,23 @@
+.yearly-view-editable-cell {
+  display: flex;
+  align-items: center;
+}
+
+.yearly-view-editable-cell .yearly-view-editable-cell-edit-button {
+  visibility: hidden;
+  opacity: 0;
+  transition:
+    visibility 0s,
+    opacity 0.2s linear;
+  margin-left: 8px;
+}
+
+.yearly-view-editable-cell:hover .yearly-view-editable-cell-edit-button {
+  visibility: visible;
+  opacity: 1;
+}
+
+.yearly-view .ant-table-thead .ant-table-cell {
+  color: #96a4c9;
+  font-size: 11px;
+}

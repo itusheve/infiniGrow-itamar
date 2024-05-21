@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+}
+
+.layout {
+  padding-top: 20px;
+  background-color: white;
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 24px;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.ghost-sub {
+  font-size: 14px;
+  font-weight: 200;
+  color: #aeaeae;
+}
+
+/*
+antd styling
+*/
+
+.ant-tabs-tab-btn {
+  color: black !important;
+  font-size: 18px !important;
+  font-weight: 500 !important;
+}
+
+.ant-tabs-ink-bar {
+  background-color: black !important;
+}
+
+.ant-tabs-nav::before {
+  border: none !important;
+}
+
+/*
+component styling
+*/
+
+.menu-item-danger {
+  color: red;
+}
+
+input {
+  border-color: #d8dde9;
+  border-width: 2px;
+}
